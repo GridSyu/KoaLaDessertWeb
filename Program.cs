@@ -44,7 +44,7 @@ builder.Services.AddDbContext<SqlDbContext>(options =>
 }, ServiceLifetime.Scoped);
 
 
-// 此程式碼為指令自動產生預設的簡單配置，如果以使用自訂配置則需要註解或者刪除，避免重複註冊導致專案無法啟用
+// 此程式碼為指令自動產生(產生Identity頁面時)預設的簡單配置，如果以使用自訂配置則需要註解或者刪除，避免重複註冊導致專案無法啟用
 // builder.Services.AddDefaultIdentity<IdentityUser>(options => 
 // options.SignIn.RequireConfirmedAccount = true)
 // .AddEntityFrameworkStores<SqlDbContext>();
@@ -164,17 +164,18 @@ if (app.Environment.IsDevelopment())
 
 
 
-app.UseAuthentication();
-
-app.UseAuthorization();
 
 app.UseHttpsRedirection();
-
-app.UseRouting();
 
 
 // 啟用靜態文件服務，讓應用程式從 wwwroot 資料夾提供靜態資源（如圖片、CSS、JS）。
 app.UseStaticFiles();
+
+app.UseRouting();
+
+
+app.UseAuthentication(); // 處理身份驗證
+app.UseAuthorization();  // 處理授權，且在 UseRouting 和 Map 之間
 
 
 

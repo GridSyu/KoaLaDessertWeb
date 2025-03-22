@@ -840,3 +840,4 @@ D:\KoaLaDessertWeb\obj\Debug\net9.0\KoaLaDessertWeb.xml
 D:\KoaLaDessertWeb\obj\Debug\net9.0\KoaLaDessertWeb.pdb
 D:\KoaLaDessertWeb\obj\Debug\net9.0\KoaLaDessertWeb.genruntimeconfig.cache
 D:\KoaLaDessertWeb\obj\Debug\net9.0\ref\KoaLaDessertWeb.dll
+D:\KoaLaDessertWeb\obj\Debug\net9.0\KoaLaDessertWeb.sourcelink.json

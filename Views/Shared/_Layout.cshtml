@@ -45,8 +45,42 @@
                         </li>
                         <li class="nav-item custom-nav-item mx-2">
                             <a class="nav-link text-white text-center fw-bold" asp-area="" asp-controller="Home"
-                                asp-action="Privacy">Privacy</a>
+                                asp-action="Privacy">隱私權政策</a>
                         </li>
+                    </ul>
+                    <!-- 會員登入/登出部分 -->
+                    <ul class="navbar-nav ms-auto">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white d-flex align-items-center" href="#"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-circle-user circleUser"></i>
+                                    <span class="ms-2">@User.Identity.Name</span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <a class="dropdown-item" asp-area="Identity"
+                                            asp-page="/Account/Manage/Index">個人頁面</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" asp-area="Identity"
+                                            asp-page="/Account/Manage/ChangePassword">變更密碼</a>
+                                    </li>
+                                    <li>
+                                        <form asp-area="Identity" asp-page="/Account/Logout" method="post">
+                                            <button type="submit" class="dropdown-item">登出</button>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-white fw-bold" asp-area="Identity" asp-page="/Account/Login">登入</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>
