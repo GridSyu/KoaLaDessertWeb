@@ -1,0 +1,35 @@
+@{
+    ViewData["Title"] = "Products";
+    Layout = "_Layout";
+}
+@*引用css*@
+<link rel="stylesheet" href="~/css/cssTo_Products.css" asp-append-version="true">
+
+<main>
+    <div class="container">
+        <div class="row">
+            <!-- 側邊欄 -->
+            <div class="col-md-3">
+                <div class="sidebar">
+                    <h3 class="sidebar-title">商品分類</h3>
+                    <ul class="category-list" id="categoryList">
+                        <li class="category-item">
+                            <a href="#" class="category-link active" data-tag="所有商品">所有商品</a>
+                        </li>
+                        <!-- 標籤將由 JavaScript 動態生成 -->
+                    </ul>
+                </div>
+            </div>
+            <!-- 商品展示區 -->
+            <div class="col-md-9">
+                <div class="row" id="productContainer">
+                    <!-- 商品將由 JavaScript 動態生成 -->
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+@* 導入 JS 至 Scripts 區塊 *@
+@section Scripts {
+    <script src="~/js/products.js" asp-append-version="true"></script>
+}

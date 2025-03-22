@@ -1,0 +1,547 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KoaLaDessertWeb</name>
+    </assembly>
+    <members>
+        <member name="T:KoaLaDessertWeb.Areas.Admin.Controllers.ProductsController">
+            <summary>
+            後台_商品目錄控制器
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Areas.Identity.Pages.Account.ForgotPasswordModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:KoaLaDessertWeb.Areas.Identity.Pages.Account.ForgotPasswordModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Areas.Identity.Pages.Account.ForgotPasswordModel.InputModel.Email">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Areas.Identity.Pages.Account.LoginModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Areas.Identity.Pages.Account.LoginModel.ExternalLogins">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Areas.Identity.Pages.Account.LoginModel.ReturnUrl">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Areas.Identity.Pages.Account.LoginModel.ErrorMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:KoaLaDessertWeb.Areas.Identity.Pages.Account.LoginModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Areas.Identity.Pages.Account.LoginModel.InputModel.Email">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Areas.Identity.Pages.Account.LoginModel.InputModel.Password">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Areas.Identity.Pages.Account.LoginModel.InputModel.RememberMe">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Areas.Identity.Pages.Account.RegisterModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Areas.Identity.Pages.Account.RegisterModel.ReturnUrl">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Areas.Identity.Pages.Account.RegisterModel.ExternalLogins">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:KoaLaDessertWeb.Areas.Identity.Pages.Account.RegisterModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Areas.Identity.Pages.Account.RegisterModel.InputModel.Email">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Areas.Identity.Pages.Account.RegisterModel.InputModel.Password">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Areas.Identity.Pages.Account.RegisterModel.InputModel.ConfirmPassword">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Areas.Identity.Pages.Account.ResendEmailConfirmationModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:KoaLaDessertWeb.Areas.Identity.Pages.Account.ResendEmailConfirmationModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Areas.Identity.Pages.Account.ResendEmailConfirmationModel.InputModel.Email">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:KoaLaDessertWeb.Controllers.BrandController">
+            <summary>
+            品牌介紹
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Controllers.BrandController.Index">
+            <summary>
+            提供品牌介紹頁面
+            </summary>
+        </member>
+        <member name="T:KoaLaDessertWeb.Controllers.ContactController">
+            <summary>
+            告訴我們
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Controllers.ContactController.Index">
+            <summary>
+            提供頁面
+            </summary>
+            <remarks>
+            Message: <br />
+            </remarks>
+        </member>
+        <member name="M:KoaLaDessertWeb.Controllers.ContactController.GatMessages">
+            <summary>
+            獲取所有留言
+            </summary>
+            <remarks>
+            Message: <br />
+            Success = 成功 <br />
+            </remarks>
+        </member>
+        <member name="M:KoaLaDessertWeb.Controllers.ContactController.AddMessage(KoaLaDessertWeb.Controllers.ContactController.AddMessageInputModel)">
+            <summary>
+            新增留言
+            </summary>
+            <remarks>
+            Message: <br />
+            Success = 成功 <br />
+            DataStructureFail = 輸入資料結構錯誤 <br />
+            </remarks>
+        </member>
+        <member name="T:KoaLaDessertWeb.Controllers.ContactController.AddMessageInputModel">
+            <summary>
+            新增留言 輸入模型
+            </summary>
+        </member>
+        <member name="T:KoaLaDessertWeb.Controllers.HomeController">
+            <summary>
+            首頁
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Controllers.HomeController.Index">
+            <summary>
+            提供首頁
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Controllers.HomeController.Order">
+            <summary>
+            提供商品目錄頁面
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Controllers.HomeController.Member">
+            <summary>
+            提供商品目錄頁面
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Controllers.HomeController.Privacy">
+            <summary>
+            提供商品目錄頁面
+            </summary>
+            <remarks>
+            Message: <br />
+            </remarks>
+        </member>
+        <member name="M:KoaLaDessertWeb.Controllers.HomeController.GetUsersEmailAddress(KoaLaDessertWeb.Controllers.HomeController.GetUsersEmailAddressInputmodel)">
+            <summary>
+            取得用戶電子信箱
+            </summary>
+            <remarks>
+            Message: <br />
+            Success = 成功 <br />
+            Subscribed = 此信箱已訂閱 <br />
+            DataStructureFail = 輸入資料結構錯誤 <br />
+            </remarks>
+        </member>
+        <member name="T:KoaLaDessertWeb.Controllers.HomeController.GetUsersEmailAddressInputmodel">
+            <summary>
+            取得用戶電子信箱 輸入模型
+            </summary>
+        </member>
+        <member name="T:KoaLaDessertWeb.Controllers.ProductsController">
+            <summary>
+            商品目錄
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Controllers.ProductsController.Index">
+            <summary>
+            提供商品目錄頁面
+            </summary>
+            <remarks>
+            Message: <br />
+            </remarks>
+        </member>
+        <member name="M:KoaLaDessertWeb.Controllers.ProductsController.GetProducts(System.String)">
+            <summary>
+            取得商品清單，可根據標籤篩選
+            </summary>
+            <param name="tag">篩選用的標籤名稱，預設為 null 表示顯示所有商品</param>
+            <remarks>
+            Message: <br />
+            Success = 成功 <br />
+            </remarks>
+        </member>
+        <member name="M:KoaLaDessertWeb.Controllers.ProductsController.GetTags">
+            <summary>
+            取得所有標籤清單
+            </summary>
+            <remarks>
+            Message: <br />
+            Success = 成功 <br />
+            </remarks>
+        </member>
+        <member name="T:KoaLaDessertWeb.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:KoaLaDessertWeb.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:KoaLaDessertWeb.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:KoaLaDessertWeb.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:KoaLaDessertWeb.Migrations.AddIdentityTables">
+            <inheritdoc />
+        </member>
+        <member name="M:KoaLaDessertWeb.Migrations.AddIdentityTables.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:KoaLaDessertWeb.Migrations.AddIdentityTables.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:KoaLaDessertWeb.Migrations.AddIdentityTables.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:KoaLaDessertWeb.Models.ErrorViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Models.ErrorViewModel.RequestId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Models.ErrorViewModel.ShowRequestId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Models.PushMail.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Models.PushMail.Mail">
+            <summary>
+            電子信箱
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Models.User.Id">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Models.User.Account">
+            <summary>
+            帳號
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Models.User.Password">
+            <summary>
+            密碼
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Models.User.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Models.User.Email">
+            <summary>
+            電子信箱
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Models.User.Birthday">
+            <summary>
+            出生日期
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Models.User.PhoneNumber">
+            <summary>
+            手機號碼
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Models.User.Address">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.DBContext.SqlDbContext.TestDatabaseConnection(System.String)">
+            <summary>
+            測試資料庫連線並列印狀態
+            </summary>
+            <param name="connectionString">資料庫連接字串</param>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.Logger.Logger.CreateDirectory">
+            <summary>
+            創建存放log的資料夾
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.Logger.Logger.ChangeLogType(KoaLaDessertWeb.Tools.Logger.LogType.LogInterface)">
+            <summary>
+            切換log類型
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.Logger.Logger.Write(System.String,System.String)">
+            <summary>
+            寫入log訊息
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.Logger.Logger.ReadByUTCTime(System.DateTimeOffset,System.DateTimeOffset)">
+            <summary>
+            讀取log訊息
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.Logger.Logger.ReadByUTCTimeAndFrom(System.DateTimeOffset,System.DateTimeOffset,System.String)">
+            <summary>
+            依來源與時間讀取log訊息
+            </summary>
+        </member>
+        <member name="T:KoaLaDessertWeb.Tools.Logger.LogType.LogInterface">
+            <summary>
+            Log
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Tools.Logger.LogType.LogInterface.RootFilePath">
+            <summary>
+            log存放的根目錄
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.Logger.LogType.LogInterface.Write(System.String,System.String)">
+            <summary>
+            寫入log訊息
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.Logger.LogType.LogInterface.ReadByUTCTime(System.DateTimeOffset,System.DateTimeOffset)">
+            <summary>
+            讀取log訊息
+            </summary>
+        </member>
+        <member name="T:KoaLaDessertWeb.Tools.Logger.LogType.PageError">
+            <summary>
+            前端網頁異常訊息
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Tools.Logger.LogType.PageError.RootFilePath">
+            <summary>
+            設定log存放的根目錄
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.Logger.LogType.PageError.Write(System.String,System.String)">
+            <summary>
+            寫入log訊息
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.Logger.LogType.PageError.ReadByUTCTime(System.DateTimeOffset,System.DateTimeOffset)">
+            <summary>
+            讀取log訊息
+            </summary>
+        </member>
+        <member name="T:KoaLaDessertWeb.Tools.Logger.LogType.PageNormal">
+            <summary>
+            前端網頁正常訊息
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Tools.Logger.LogType.PageNormal.RootFilePath">
+            <summary>
+            設定log存放的根目錄
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.Logger.LogType.PageNormal.Write(System.String,System.String)">
+            <summary>
+            寫入log訊息
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.Logger.LogType.PageNormal.ReadByUTCTime(System.DateTimeOffset,System.DateTimeOffset)">
+            <summary>
+            讀取log訊息
+            </summary>
+        </member>
+        <member name="T:KoaLaDessertWeb.Tools.Logger.LogType.ToolsError">
+            <summary>
+            異常訊息
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Tools.Logger.LogType.ToolsError.RootFilePath">
+            <summary>
+            設定log存放的根目錄
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.Logger.LogType.ToolsError.Write(System.String,System.String)">
+            <summary>
+            寫入log訊息
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.Logger.LogType.ToolsError.ReadByUTCTime(System.DateTimeOffset,System.DateTimeOffset)">
+            <summary>
+            讀取log訊息
+            </summary>
+        </member>
+        <member name="T:KoaLaDessertWeb.Tools.Logger.LogType.ToolsNormal">
+            <summary>
+            正常訊息
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Tools.Logger.LogType.ToolsNormal.RootFilePath">
+            <summary>
+            設定log存放的根目錄
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.Logger.LogType.ToolsNormal.Write(System.String,System.String)">
+            <summary>
+            寫入log訊息
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.Logger.LogType.ToolsNormal.ReadByUTCTime(System.DateTimeOffset,System.DateTimeOffset)">
+            <summary>
+            讀取log訊息
+            </summary>
+        </member>
+        <member name="T:KoaLaDessertWeb.Tools.Logger.LogType.WebError">
+            <summary>
+            異常訊息
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Tools.Logger.LogType.WebError.RootFilePath">
+            <summary>
+            設定log存放的根目錄
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.Logger.LogType.WebError.Write(System.String,System.String)">
+            <summary>
+            寫入log訊息
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.Logger.LogType.WebError.ReadByUTCTime(System.DateTimeOffset,System.DateTimeOffset)">
+            <summary>
+            讀取log訊息
+            </summary>
+        </member>
+        <member name="T:KoaLaDessertWeb.Tools.Logger.LogType.WebNormal">
+            <summary>
+            正常訊息
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Tools.Logger.LogType.WebNormal.RootFilePath">
+            <summary>
+            設定log存放的根目錄
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.Logger.LogType.WebNormal.Write(System.String,System.String)">
+            <summary>
+            寫入log訊息
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Tools.Logger.LogType.WebNormal.ReadByUTCTime(System.DateTimeOffset,System.DateTimeOffset)">
+            <summary>
+            讀取log訊息
+            </summary>
+        </member>
+        <member name="T:KoaLaDessertWeb.Tools.Logger.Model.LogOutput">
+            <summary>
+            log輸出
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Tools.Logger.Model.LogOutput.LogType">
+            <summary>
+            log類型
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Tools.Logger.Model.LogOutput.Timestamp">
+            <summary>
+            時間戳記
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Tools.Logger.Model.LogOutput.Content">
+            <summary>
+            log內文
+            </summary>
+        </member>
+        <member name="P:KoaLaDessertWeb.Tools.Logger.Model.LogOutput.From">
+            <summary>
+            log來源
+            </summary>
+        </member>
+    </members>
+</doc>

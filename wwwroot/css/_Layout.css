@@ -1,0 +1,32 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.container-fluid{
+    background-color: dimgrey;
+    border-radius: 10px;
+}
+
+
+.custom-nav-item {
+    width: 100px;
+    height: 40px;
+    background-color: dimgrey;
+    border-radius: 10px;
+}
+
+/* 確保文字垂直置中 */
+.custom-nav-item .nav-link {
+    height: 100%;
+    /* 填滿父元素高度 */
+    display: flex;
+    align-items: center;
+    /* 垂直置中 */
+    justify-content: center;
+    /* 水平置中 */
+}
+
+.custom-nav-item:hover {
+    background-color: darkgrey;
+    /* 懸停時變色 */
+}

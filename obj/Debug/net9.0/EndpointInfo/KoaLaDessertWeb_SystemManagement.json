@@ -1,0 +1,10 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "SystemManagement",
+    "description": "系統管理API",
+    "version": "v1"
+  },
+  "paths": { },
+  "components": { }
+}

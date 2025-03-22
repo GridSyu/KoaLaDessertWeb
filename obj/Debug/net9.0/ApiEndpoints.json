@@ -1,0 +1,150 @@
+[
+  {
+    "ContainingType": "KoaLaDessertWeb.Areas.Admin.Controllers.ProductsController",
+    "Method": "Index",
+    "RelativePath": "KoaLaDessertWeb/Admin/Products/Index",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KoaLaDessertWeb.Controllers.BrandController",
+    "Method": "Index",
+    "RelativePath": "KoaLaDessertWeb/Brand/Index",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KoaLaDessertWeb.Controllers.ContactController",
+    "Method": "AddMessage",
+    "RelativePath": "KoaLaDessertWeb/Contact/AddMessage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "KoaLaDessertWeb.Controllers.ContactController\u002BAddMessageInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KoaLaDessertWeb.Controllers.ContactController",
+    "Method": "GatMessages",
+    "RelativePath": "KoaLaDessertWeb/Contact/GatMessages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KoaLaDessertWeb.Controllers.ContactController",
+    "Method": "Index",
+    "RelativePath": "KoaLaDessertWeb/Contact/Index",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KoaLaDessertWeb.Controllers.HomeController",
+    "Method": "GetUsersEmailAddress",
+    "RelativePath": "KoaLaDessertWeb/Home/GetUsersEmailAddress",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "KoaLaDessertWeb.Controllers.HomeController\u002BGetUsersEmailAddressInputmodel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KoaLaDessertWeb.Controllers.HomeController",
+    "Method": "Index",
+    "RelativePath": "KoaLaDessertWeb/Home/Index",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KoaLaDessertWeb.Controllers.HomeController",
+    "Method": "Member",
+    "RelativePath": "KoaLaDessertWeb/Home/Member",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KoaLaDessertWeb.Controllers.HomeController",
+    "Method": "Order",
+    "RelativePath": "KoaLaDessertWeb/Home/Order",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KoaLaDessertWeb.Controllers.HomeController",
+    "Method": "Privacy",
+    "RelativePath": "KoaLaDessertWeb/Home/Privacy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KoaLaDessertWeb.Controllers.ProductsController",
+    "Method": "GetProducts",
+    "RelativePath": "KoaLaDessertWeb/Products/GetProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tag",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KoaLaDessertWeb.Controllers.ProductsController",
+    "Method": "GetTags",
+    "RelativePath": "KoaLaDessertWeb/Products/GetTags",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KoaLaDessertWeb.Controllers.ProductsController",
+    "Method": "Index",
+    "RelativePath": "KoaLaDessertWeb/Products/Index",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

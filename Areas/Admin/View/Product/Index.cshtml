@@ -1,0 +1,27 @@
+@model List<KoaLaDessertWeb.Models.Product>
+<h2>商品管理</h2>
+<a asp-action="Create" class="btn btn-primary">新增商品</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>名稱</th>
+            <th>價格</th>
+            <th>圖片</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+                <tr>
+                    <td>@product.Name</td>
+                    <td>@product.Price</td>
+                    <td><img src="/images/@product.ImageUrl" style="width: 50px;" alt="@product.Name" /></td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@product.Id">編輯</a> |
+                        <a asp-action="Delete" asp-route-id="@product.Id">刪除</a>
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>

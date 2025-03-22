@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - KoaLaDessertWeb</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/_Layout.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-xl navbar-dark bg-transparent mx-1 mx-md-5">
+            <div class="container-fluid">
+                <img src="~/images/koala.png" alt="KoaLaDessertWeb" class="navbar-brand"
+                    style="width: 45px; height: 50px;" />
+                <a class="navbar-brand text-white" asp-area="" asp-controller="Home"
+                    asp-action="Index">KoaLaDessertWeb</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto align-items-center">
+                        <li class="nav-item custom-nav-item mx-2">
+                            <a class="nav-link text-white text-center fw-bold" asp-area="" asp-controller="Brand"
+                                asp-action="Index">品牌介紹</a>
+                        </li>
+                        <li class="nav-item custom-nav-item mx-2">
+                            <a class="nav-link text-white text-center fw-bold" asp-area=""asp-controller="Products"
+                                asp-action="Index">商品目錄</a>
+                        </li>
+                        <li class="nav-item custom-nav-item mx-2">
+                            <a class="nav-link text-white text-center fw-bold" asp-area="" asp-controller="Home"
+                                asp-action="Order">訂購系統</a>
+                        </li>
+                        <li class="nav-item custom-nav-item mx-2">
+                            <a class="nav-link text-white text-center fw-bold" asp-area="" asp-controller="Home"
+                                asp-action="Member">會員系統</a>
+                        </li>
+                        <li class="nav-item custom-nav-item mx-2">
+                            <a class="nav-link text-white text-center fw-bold" asp-area="" asp-controller="Contact"
+                                asp-action="Index">告訴我們</a>
+                        </li>
+                        <li class="nav-item custom-nav-item mx-2">
+                            <a class="nav-link text-white text-center fw-bold" asp-area="" asp-controller="Home"
+                                asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <!-- 全域引用 -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- 全域 JavaScript -->
+    <script src="~/js/main.js" , asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

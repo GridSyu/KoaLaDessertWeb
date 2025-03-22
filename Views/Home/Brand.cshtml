@@ -1,0 +1,82 @@
+@{
+    ViewData["Title"] = "Brand";
+    Layout = "_Layout";
+}
+@* 引用 CSS *@
+<link rel="stylesheet" href="~/css/cssTo_Brand.css" asp-append-version="true">
+
+<main> <!-- 主要部分 -->
+    <section class="brand-header">
+        <h1>關於烤菈甜點工作室</h1>
+        <p>用心烘焙每一份幸福滋味</p>
+    </section>
+
+    <section class="brand-story">
+        <h2>我們的品牌故事</h2>
+        <p>
+            烤菈甜點工作室創立於對天然食材與烘焙藝術的熱愛。我們相信，<br>
+            一塊好的麵包不僅是味蕾的享受，更是生活中溫暖的陪伴。<br>
+            從選材到製作，每一個步驟都承載著我們對品質的堅持與對顧客的承諾。
+        </p>
+        <p>
+            創辦人Cora從法國學習烘焙技藝回台後，決心將歐式經典與在地風味結合，<br>
+            打造出屬於台灣的幸福滋味。從一間小工作室開始，烤菈逐步成長，<br>
+            如今已在台中南屯開設旗艦店，期望將這份美好分享給更多人。
+        </p>
+    </section>
+
+    <section class="brand-mission">
+        <h2>我們的使命</h2>
+        <div class="mission-items">
+            <div>
+                <h3>嚴選天然食材</h3>
+                <p>只選用無添加、無人工色素的優質原料，<br>讓您吃得安心又健康。</p>
+            </div>
+            <div>
+                <h3>匠心烘焙</h3>
+                <p>每款產品都經手工精製，保留傳統烘焙的溫度與感動。</p>
+            </div>
+            <div>
+                <h3>幸福傳遞</h3>
+                <p>透過每一口麵包，將溫暖與幸福傳遞到您的日常生活中。</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="brand-vision">
+        <h2>我們的願景</h2>
+        <p>
+            烤菈甜點工作室期許成為您生活中不可或缺的一部分，<br>
+            不僅是烘焙品牌，更是分享美好時光的伙伴。<br>
+            未來，我們將持續創新，推出更多健康美味的選擇，<br>
+            並擴展至更多城市，讓烤菈的香氣飄遍每個角落。
+        </p>
+    </section>
+
+    <section class="lineimg">
+        <div>
+            <img src="~/images/lineImg.png" alt="烤菈甜點工作室Line">
+            <h3>加入烤菈甜點工作室Line</h3>
+            <p>獲取最新活動及促銷資訊</p>
+        </div>
+        <div>
+            <img src="~/images/igimg.png" alt="更多優惠資訊">
+            <h3>關注我們的社群平台</h3>
+            <p>即時掌握最新消息與專屬活動</p>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <p>歡迎訂閱烤菈甜點電子報，可不定期收到限定優惠喔！</p>
+        <form id="emailForm">
+            <input type="email" id="emailInput" placeholder="請輸入您的 Email" required>
+            <button type="submit">送出</button>
+        </form>
+        <p id="resultMessage"></p>
+    </section>
+</main>
+
+@* 導入 JS 至 Scripts 區塊 *@
+@section Scripts {
+        <script src="~/js/index.js"></script>
+}

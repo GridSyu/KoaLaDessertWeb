@@ -1,0 +1,31 @@
+@model IEnumerable<KoaLaDessertWeb.Models.Message>
+@{
+    ViewData["Title"] = "Contact";
+    Layout = "_Layout";
+}
+@* 導入 CSS *@
+<link rel="stylesheet" href="~/css/cssTo_Contact.css" asp-append-version="true">
+
+<main>
+    <div class="message-board">
+        <div class="message-form">
+            <textarea class="message-input" placeholder="在此留下您寶貴的意見："></textarea>
+            <button class="submit-btn">送出留言</button> @* 移除 onclick，改由 JS 綁定 *@
+        </div>
+        <div class="message-list" id="messageList">
+            @foreach (var message in Model)
+            {
+                <div class="message-item">
+                    <div class="user-id">[@message.Role]</div>
+                    <div class="content">@message.MessageContent</div>
+                    <div class="timestamp">[@message.MessageTime.ToString("yyyy-MM-dd HH:mm:ss")]</div>
+                </div>
+            }
+        </div>
+    </div>
+</main>
+
+@* 導入 JS 至 Scripts 區塊 *@
+@section Scripts {
+    <script src="/js/Contact.js"></script>
+}

@@ -1,0 +1,286 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "HomeManagement",
+    "description": "主頁管理API",
+    "version": "v1"
+  },
+  "paths": {
+    "/KoaLaDessertWeb/Brand/Index": {
+      "get": {
+        "tags": [
+          "Brand"
+        ],
+        "summary": "提供品牌介紹頁面",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/KoaLaDessertWeb/Contact/Index": {
+      "get": {
+        "tags": [
+          "Contact"
+        ],
+        "summary": "提供頁面",
+        "description": "Message: \r\n",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/KoaLaDessertWeb/Contact/GatMessages": {
+      "get": {
+        "tags": [
+          "Contact"
+        ],
+        "summary": "獲取所有留言",
+        "description": "Message: \r\n\r\nSuccess = 成功 \r\n",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/KoaLaDessertWeb/Contact/AddMessage": {
+      "post": {
+        "tags": [
+          "Contact"
+        ],
+        "summary": "新增留言",
+        "description": "Message: \r\n\r\nSuccess = 成功 \r\n\r\nDataStructureFail = 輸入資料結構錯誤 \r\n",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddMessageInputModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddMessageInputModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddMessageInputModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/KoaLaDessertWeb/Home/Index": {
+      "get": {
+        "tags": [
+          "Home"
+        ],
+        "summary": "提供首頁",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/KoaLaDessertWeb/Home/Order": {
+      "get": {
+        "tags": [
+          "Home"
+        ],
+        "summary": "提供商品目錄頁面",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/KoaLaDessertWeb/Home/Member": {
+      "get": {
+        "tags": [
+          "Home"
+        ],
+        "summary": "提供商品目錄頁面",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/KoaLaDessertWeb/Home/Privacy": {
+      "get": {
+        "tags": [
+          "Home"
+        ],
+        "summary": "提供商品目錄頁面",
+        "description": "Message: \r\n",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/KoaLaDessertWeb/Home/GetUsersEmailAddress": {
+      "post": {
+        "tags": [
+          "Home"
+        ],
+        "summary": "取得用戶電子信箱",
+        "description": "Message: \r\n\r\nSuccess = 成功 \r\n\r\nSubscribed = 此信箱已訂閱 \r\n\r\nDataStructureFail = 輸入資料結構錯誤 \r\n",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetUsersEmailAddressInputmodel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetUsersEmailAddressInputmodel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetUsersEmailAddressInputmodel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/KoaLaDessertWeb/Products/Index": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "summary": "提供商品目錄頁面",
+        "description": "Message: \r\n",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/KoaLaDessertWeb/Products/GetProducts": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "summary": "取得商品清單，可根據標籤篩選",
+        "description": "Message: \r\n\r\nSuccess = 成功 \r\n",
+        "parameters": [
+          {
+            "name": "tag",
+            "in": "query",
+            "description": "篩選用的標籤名稱，預設為 null 表示顯示所有商品",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/KoaLaDessertWeb/Products/GetTags": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "summary": "取得所有標籤清單",
+        "description": "Message: \r\n\r\nSuccess = 成功 \r\n",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/KoaLaDessertWeb/Admin/Products/Index": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AddMessageInputModel": {
+        "type": "object",
+        "properties": {
+          "Role": {
+            "type": "string",
+            "nullable": true
+          },
+          "MessageContent": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "新增留言 輸入模型"
+      },
+      "GetUsersEmailAddressInputmodel": {
+        "required": [
+          "Email"
+        ],
+        "type": "object",
+        "properties": {
+          "Email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          }
+        },
+        "additionalProperties": false,
+        "description": "取得用戶電子信箱 輸入模型"
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Brand",
+      "description": "品牌介紹"
+    },
+    {
+      "name": "Contact",
+      "description": "告訴我們"
+    },
+    {
+      "name": "Home",
+      "description": "首頁"
+    },
+    {
+      "name": "Products",
+      "description": "商品目錄"
+    }
+  ]
+}

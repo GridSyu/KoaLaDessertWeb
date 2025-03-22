@@ -1,0 +1,16 @@
+# 排除檔案
+KoaLaDessertWeb/.vs/*
+KoaLaDessertWeb/.vscode/*
+KoaLaDessertWeb/bin/*
+KoaLaDessertWeb/log/*
+
+# 設定檔案
+KoaLaDessertWeb/appsettings.Development.json
+KoaLaDessertWeb/appsettings.json
+
+
+# 個人筆記
+Grid.md
+
+
+

@@ -1,0 +1,49 @@
+.message-board {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.message-form {
+    margin-bottom: 20px;
+}
+
+.message-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    resize: vertical;
+}
+
+.submit-btn {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.message-list {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.message-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.user-id {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.timestamp {
+    color: #666;
+    font-size: 0.9em;
+}
