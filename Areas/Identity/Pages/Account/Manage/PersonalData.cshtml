@@ -1,0 +1,27 @@
+﻿@page
+@model PersonalDataModel
+@{
+    ViewData["Title"] = "Personal Data";
+    ViewData["ActivePage"] = ManageNavPages.PersonalData;
+}
+
+<h3>帳戶資料</h3>
+
+<div class="row">
+    <div class="col-md-6">
+        <p>您的帳戶包含您提供給我們的個人資料。此頁面可讓您刪除該資料。</p>
+        <p>
+            <strong>刪除這些資料將永久刪除您的帳戶，並且無法恢復。</strong>
+        @* </p>
+        <form id="download-data" asp-page="DownloadPersonalData" method="post">
+            <button class="btn btn-primary" type="submit">Download</button>
+        </form>
+        <p> *@
+            <a id="delete" asp-page="DeletePersonalData" class="btn btn-danger">刪除帳戶</a>
+        </p>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

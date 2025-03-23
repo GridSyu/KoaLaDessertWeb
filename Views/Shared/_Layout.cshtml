@@ -49,7 +49,7 @@
                         </li>
                     </ul>
                     <!-- 會員登入/登出部分 -->
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav ms-auto d-flex align-items-center">
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item dropdown">
@@ -60,16 +60,16 @@
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end">
                                     <li>
-                                        <a class="dropdown-item" asp-area="Identity"
+                                        <a class="dropdown-item text-center" asp-area="Identity"
                                             asp-page="/Account/Manage/Index">個人頁面</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" asp-area="Identity"
+                                        <a class="dropdown-item text-center" asp-area="Identity"
                                             asp-page="/Account/Manage/ChangePassword">變更密碼</a>
                                     </li>
                                     <li>
                                         <form asp-area="Identity" asp-page="/Account/Logout" method="post">
-                                            <button type="submit" class="dropdown-item">登出</button>
+                                            <button type="submit" class="dropdown-item text-center">登出</button>
                                         </form>
                                     </li>
                                 </ul>
