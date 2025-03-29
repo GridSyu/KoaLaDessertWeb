@@ -1,0 +1,29 @@
+@using Microsoft.AspNetCore.Identity
+@model List<(IdentityUser User, IList<string> Roles)>
+
+@{
+    ViewData["Title"] = "管理使用者";
+}
+
+<h1>管理使用者</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>角色</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var (user, roles) in Model)
+        {
+                <tr>
+                    <td>@user.Email</td>
+                    <td>@string.Join(", ", roles)</td>
+                    <td>
+                        <a asp-action="EditUserRoles" asp-route-id="@user.Id" class="btn btn-primary">編輯角色</a>
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>

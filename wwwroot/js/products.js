@@ -15,7 +15,7 @@ $(document).ready(function () {
 });
 
 // API 基礎路由
-const apiurl = "http://localhost:5198/KoaLaDessertWeb/Products/";
+const apiurl = "/KoaLaDessertWeb/Products/";
 
 // 載入商品標籤(左側選單)
 function loadTags() {
@@ -69,7 +69,7 @@ function loadProducts(tag = null) {
                 container.empty();
                 products.forEach(product => {
                     container.append(`
-                        <div class="col-md-5 mb-4">
+                        <div class="col-md-5 mb-4 mt-3">
                             <div class="card">
                                 <img src="${product.ImageUrl}" class="card-img-top" alt="${product.Name}">
                                 <div class="card-body">

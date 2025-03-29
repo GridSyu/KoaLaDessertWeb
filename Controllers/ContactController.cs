@@ -3,6 +3,7 @@ using KoaLaDessertWeb.Models;
 using KoaLaDessertWeb.Tools.DBContext;
 using KoaLaDessertWeb.Tools.Logger;
 using KoaLaDessertWeb.Tools.Logger.LogType;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 
 namespace KoaLaDessertWeb.Controllers

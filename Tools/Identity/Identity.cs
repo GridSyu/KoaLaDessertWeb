@@ -18,21 +18,26 @@ namespace KoaLaDessertWeb.Tools.Identity
             _configuration = configuration;
         }
 
-
+        /// <summary>
+        /// Identity 初始化配置
+        /// </summary>
         public async Task InitializeAsync()
         {
-            // 讀取配置
+            // 讀取 [appsettings] 檔案內的 [IdentitySettings] 標籤配置
             var settings = _configuration.GetSection("IdentitySettings").Get<IdentitySettings>();
             if (settings == null)
             {
                 throw new InvalidOperationException("IdentitySettings 未在 appsettings.json 中正確配置。");
             }
 
-            // 初始化角色和預設管理員
+            // 角色和預設管理員的建立
             await EnsureRolesAsync(settings.Roles);
             await EnsureAdminUserAsync(settings.AdminUser);
-        }
 
+        }
+        /// <summary>
+        /// 角色異步處理
+        /// </summary>
         private async Task EnsureRolesAsync(string[] roleNames)
         {
             foreach (var roleName in roleNames)
@@ -48,6 +53,9 @@ namespace KoaLaDessertWeb.Tools.Identity
             }
         }
 
+        /// <summary>
+        /// 預設管理員的建立方法
+        /// </summary>
         private async Task EnsureAdminUserAsync(AdminUserSettings adminSettings)
         {
             var adminUser = await _userManager.FindByEmailAsync(adminSettings.Email);

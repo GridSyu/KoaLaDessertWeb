@@ -78,12 +78,20 @@ builder.Services.AddSwaggerGen(options =>
         Description = "主頁管理API",
     });
 
-    options.SwaggerDoc("SystemManagement", new Microsoft.OpenApi.Models.OpenApiInfo
+    options.SwaggerDoc("AdminManagement", new Microsoft.OpenApi.Models.OpenApiInfo
     {
-        Title = "SystemManagement",
+        Title = "AdminManagement",
         Version = "v1",
-        Description = "系統管理API",
+        Description = "管理員API",
     });
+
+    options.SwaggerDoc("SuperAdminManagement", new Microsoft.OpenApi.Models.OpenApiInfo
+    {
+        Title = "SuperAdminManagement",
+        Version = "v1",
+        Description = "超級管理員API",
+    });
+
     // 加入xml檔案到swagger
     options.MapType<DateTime>(() => new OpenApiSchema { Type = "DateTime", Format = "date-time", Example = new OpenApiDateTime(DateTimeOffset.Now) });
     var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
@@ -114,13 +122,14 @@ builder.Services.AddScoped<Identity>();
 #endregion
 
 
+
+
 var app = builder.Build();
 
 
 #region 在非開發模式下執行
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error");
     // 強制執行 HTTPS
     app.UseHsts();
 }
@@ -139,7 +148,16 @@ if (app.Environment.IsDevelopment())
 
         // 初始化 Identity 角色和使用者
         var initializer = scope.ServiceProvider.GetRequiredService<Identity>();
-        await initializer.InitializeAsync();
+        try
+        {
+            await initializer.InitializeAsync();
+            app.Logger.LogInformation("Identity 初始化成功。");
+        }
+        catch (Exception ex)
+        {
+            app.Logger.LogError(ex, "Identity 初始化失敗。");
+            throw;
+        }
     }
 
     // 啟用 Swagger 和 Swagger UI
@@ -149,8 +167,9 @@ if (app.Environment.IsDevelopment())
     });
     app.UseSwaggerUI(options =>
     {
-        options.SwaggerEndpoint("/swagger/HomeManagement/swagger.json", "主頁管理API v1");
-        options.SwaggerEndpoint("/swagger/SystemManagement/swagger.json", "使用者管理API v1");
+        options.SwaggerEndpoint("/swagger/HomeManagement/swagger.json", "主頁管理API");
+        options.SwaggerEndpoint("/swagger/AdminManagement/swagger.json", "管理員API");
+        options.SwaggerEndpoint("/swagger/SuperAdminManagement/swagger.json", "超級管理員API");
 
         // 設定 Swagger UI 的路由前綴
         options.RoutePrefix = "swagger";
@@ -161,8 +180,6 @@ if (app.Environment.IsDevelopment())
     app.UseCors();
 }
 #endregion
-
-
 
 
 app.UseHttpsRedirection();
@@ -176,7 +193,6 @@ app.UseRouting();
 
 app.UseAuthentication(); // 處理身份驗證
 app.UseAuthorization();  // 處理授權，且在 UseRouting 和 Map 之間
-
 
 
 // 重新定向路由
@@ -208,6 +224,17 @@ app.MapAreaControllerRoute(
     name: "GeneralArea",
     areaName: "General",
     pattern: "General/{controller}/{action}/{id?}");
+
+
+
+// 如果使用者無權限並嘗試存取時
+app.UseExceptionHandler("/Error");
+app.MapControllerRoute(
+    name: "error",
+    pattern: "Error/{statusCode?}",
+    defaults: new { controller = "Error", action = "HandleError" });
+
+
 
 // 使用 Identity UI
 app.MapRazorPages();

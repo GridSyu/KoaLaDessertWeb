@@ -7,11 +7,11 @@ using Microsoft.AspNetCore.Authorization;
 namespace KoaLaDessertWeb.Areas.Admin.Controllers;
 
 /// <summary>
-/// 後台_商品目錄控制器
+/// 商品目錄
 /// </summary>
 [Authorize(Roles = "Admin")]
 [Area("Admin")]
-[ApiExplorerSettings(GroupName = "HomeManagement")]
+[ApiExplorerSettings(GroupName = "AdminManagement")]
 [Route("KoaLaDessertWeb/[area]/[controller]")]
 public class ProductsController : Controller
 {
