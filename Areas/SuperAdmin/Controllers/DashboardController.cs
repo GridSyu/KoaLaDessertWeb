@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore;
 [Route("KoaLaDessertWeb/Areas/SuperAdmin/[controller]")]
 [Area("SuperAdmin")]
 [Authorize(Roles = "SuperAdmin")]
-public class DashboardController : ControllerBase
+public class DashboardController : Controller
 {
     private readonly UserManager<IdentityUser> _userManager;
     private readonly RoleManager<IdentityRole> _roleManager;
@@ -27,19 +27,18 @@ public class DashboardController : ControllerBase
 
 
     /// <summary>
-    /// 獲取後台管理首頁資料
+    /// 提供 後台管理 頁面
     /// </summary>
-    /// <returns>後台功能清單</returns>
-    [HttpGet("index")]
+    /// <remarks>
+    /// Message: <br />
+    /// </remarks>
+    [HttpGet("Index")]
     public IActionResult Index()
     {
-        var dashboardData = new
-        {
-            Message = "歡迎來到 SuperAdmin 後台管理！",
-            AvailableFunctions = new[] { "ManageUsers" }
-        };
-        return Ok(dashboardData);
+        string htmlPath = "~/Areas/SuperAdmin/Views/Home/Dashboard.cshtml";
+        return View(htmlPath);
     }
+
 
     /// <summary>
     /// 獲取所有使用者及其角色
@@ -58,7 +57,7 @@ public class DashboardController : ControllerBase
             {
                 user.Id,
                 user.Email,
-                Roles = roles
+                Roles = roles ?? new List<string>()
             });
         }
 
@@ -105,7 +104,7 @@ public class DashboardController : ControllerBase
         var user = await _userManager.FindByIdAsync(id);
         if (user == null)
         {
-            return NotFound(new { Message = "使用者不存在" });
+            return NotFound(new { message = "使用者不存在" });
         }
 
         var currentRoles = await _userManager.GetRolesAsync(user);
@@ -115,16 +114,16 @@ public class DashboardController : ControllerBase
         var addResult = await _userManager.AddToRolesAsync(user, rolesToAdd);
         if (!addResult.Succeeded)
         {
-            return BadRequest(new { Message = "新增角色失敗", Errors = addResult.Errors });
+            return BadRequest(new { message = "新增角色失敗", Errors = addResult.Errors });
         }
 
         var removeResult = await _userManager.RemoveFromRolesAsync(user, rolesToRemove);
         if (!removeResult.Succeeded)
         {
-            return BadRequest(new { Message = "移除角色失敗", Errors = removeResult.Errors });
+            return BadRequest(new { message = "移除角色失敗", Errors = removeResult.Errors });
         }
 
-        return Ok(new { Message = "角色更新成功" });
+        return Ok(new { message = "角色更新成功" });
     }
 
 }

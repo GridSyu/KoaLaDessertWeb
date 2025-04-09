@@ -1,0 +1,63 @@
+/* 自訂表格樣式 */
+#userTable {
+    border: 1px solid #dee2e6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#userTable th {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
+
+#userTable td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#userTable .btn-sm {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+/* 自訂模態框樣式 */
+#editRoleModal .modal-content {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#editRoleModal .modal-header {
+    background-color: #007bff;
+    color: white;
+    border-bottom: none;
+}
+
+#editRoleModal .modal-footer {
+    border-top: none;
+}
+
+#editRoleModal .form-check {
+    margin-bottom: 10px;
+}
+
+#editRoleModal .form-check-label {
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+/* 整體容器樣式 */
+.container.mt-5 {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: #343a40;
+    font-weight: bold;
+}
+
+p {
+    color: #6c757d;
+}

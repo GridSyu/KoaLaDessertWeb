@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VFtaq3LafSc9VafbVlNyGQuwRF4jtcbUWVDcOf2skNk=",
+  "Hash": "uxO47tZnHLtfTcEijbF5oAEziGrFlcZbRjEmZwdhGwI=",
   "Source": "KoaLaDessertWeb",
   "BasePath": "_content/KoaLaDessertWeb",
   "Mode": "Default",
@@ -2138,6 +2138,27 @@
       "OriginalItemSpec": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
+      "Identity": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\apw6y8jj3b-jfwkb2v8gr.gz",
+      "SourceId": "KoaLaDessertWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/KoaLaDessertWeb",
+      "RelativePath": "css/cssTo_Areas_SuperAdmin_Index#[.{fingerprint=jfwkb2v8gr}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Areas_SuperAdmin_Index.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "4u014eh7gc",
+      "Integrity": "hPkPXPgcwXbIyvunL54CqZpRc30XFIZGI/kroy7fuho=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Areas_SuperAdmin_Index.css"
+    },
+    {
       "Identity": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\ask1hv01tg-0i3buxo5is.gz",
       "SourceId": "KoaLaDessertWeb",
       "SourceType": "Discovered",
@@ -2495,6 +2516,27 @@
       "OriginalItemSpec": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
+      "Identity": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\fkzpfsneoc-dpxai46a5c.gz",
+      "SourceId": "KoaLaDessertWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/KoaLaDessertWeb",
+      "RelativePath": "js/superadmin#[.{fingerprint=dpxai46a5c}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\js\\superadmin.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "kb17mtezjb",
+      "Integrity": "cAySn2bBBjow61/GMUHtfPjC+8XiI5SGEoPNxFhSjiM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\js\\superadmin.js"
+    },
+    {
       "Identity": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\flvpcxdvrw-ub07r2b239.gz",
       "SourceId": "KoaLaDessertWeb",
       "SourceType": "Discovered",
@@ -2558,12 +2600,33 @@
       "OriginalItemSpec": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\gz9qeyoiws-m8r6djl0cq.gz",
+      "Identity": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\gi4goxn3vg-pa9142jc8o.gz",
       "SourceId": "KoaLaDessertWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/KoaLaDessertWeb",
-      "RelativePath": "js/products#[.{fingerprint=m8r6djl0cq}]?.js.gz",
+      "RelativePath": "css/cssTo_Index#[.{fingerprint=pa9142jc8o}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Index.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "jafxo6lr1c",
+      "Integrity": "VTSz5V/aqGfRKNHIdalo4LeQv0xsZCaK6sUxJazi7/k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Index.css"
+    },
+    {
+      "Identity": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\gz9qeyoiws-sk0aouoro7.gz",
+      "SourceId": "KoaLaDessertWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/KoaLaDessertWeb",
+      "RelativePath": "js/products#[.{fingerprint=sk0aouoro7}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2572,8 +2635,8 @@
       "RelatedAsset": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\js\\products.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "azap2f58q2",
-      "Integrity": "1jE0Gmx0tBxTDPc9ICcia/eb+hs+aYaqs0MM0I2mbkU=",
+      "Fingerprint": "xjov1vk91c",
+      "Integrity": "83R35FGGAsbIu/qUwL08C5wlDre2IYuP8kZDIFuZi+w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\js\\products.js"
@@ -2703,27 +2766,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
-    },
-    {
-      "Identity": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\ih8tcmre6g-pa9142jc8o.gz",
-      "SourceId": "KoaLaDessertWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/KoaLaDessertWeb",
-      "RelativePath": "css/cssTo_Home#[.{fingerprint=pa9142jc8o}]?.css.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Home.css",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "jafxo6lr1c",
-      "Integrity": "VTSz5V/aqGfRKNHIdalo4LeQv0xsZCaK6sUxJazi7/k=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Home.css"
     },
     {
       "Identity": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\ivy2s9gwh5-iovd86k7lj.gz",
@@ -4175,6 +4217,27 @@
       "OriginalItemSpec": "wwwroot\\css\\_Layout.css"
     },
     {
+      "Identity": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Areas_SuperAdmin_Index.css",
+      "SourceId": "KoaLaDessertWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\",
+      "BasePath": "_content/KoaLaDessertWeb",
+      "RelativePath": "css/cssTo_Areas_SuperAdmin_Index#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jfwkb2v8gr",
+      "Integrity": "LwR/I34y6AVTnEGy4xDvYGdBLyUvKHRpudLFW0n3ACk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cssTo_Areas_SuperAdmin_Index.css"
+    },
+    {
       "Identity": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Brand.css",
       "SourceId": "KoaLaDessertWeb",
       "SourceType": "Discovered",
@@ -4217,12 +4280,12 @@
       "OriginalItemSpec": "wwwroot\\css\\cssTo_Contact.css"
     },
     {
-      "Identity": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Home.css",
+      "Identity": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Index.css",
       "SourceId": "KoaLaDessertWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\",
       "BasePath": "_content/KoaLaDessertWeb",
-      "RelativePath": "css/cssTo_Home#[.{fingerprint}]?.css",
+      "RelativePath": "css/cssTo_Index#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4235,7 +4298,7 @@
       "Integrity": "UeGNNFcJueUD6FDDIE16iR3xHOSPpPSGyUAqt+0H2js=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\cssTo_Home.css"
+      "OriginalItemSpec": "wwwroot\\css\\cssTo_Index.css"
     },
     {
       "Identity": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Privacy.css",
@@ -4693,11 +4756,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "m8r6djl0cq",
-      "Integrity": "mocDz6GvZlO3/qQSLIR6sozH58BIT+lNJr2NrIZXjEs=",
+      "Fingerprint": "sk0aouoro7",
+      "Integrity": "lE40WiyJoVy2HlpkF4jK8T0pe5AZbtK7C116o8cnEoY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\products.js"
+    },
+    {
+      "Identity": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\js\\superadmin.js",
+      "SourceId": "KoaLaDessertWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\",
+      "BasePath": "_content/KoaLaDessertWeb",
+      "RelativePath": "js/superadmin#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dpxai46a5c",
+      "Integrity": "IYs9B1OT9hQV4PeM30SUX2B7fi1V0cszOWfQ0tcGdKM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\superadmin.js"
     },
     {
       "Identity": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\js\\utils.js",
@@ -6281,6 +6365,304 @@
       ]
     },
     {
+      "Route": "css/cssTo_Areas_SuperAdmin_Index.css",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\apw6y8jj3b-jfwkb2v8gr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002127659574"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "469"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hPkPXPgcwXbIyvunL54CqZpRc30XFIZGI/kroy7fuho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 03:19:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LwR/I34y6AVTnEGy4xDvYGdBLyUvKHRpudLFW0n3ACk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LwR/I34y6AVTnEGy4xDvYGdBLyUvKHRpudLFW0n3ACk="
+        }
+      ]
+    },
+    {
+      "Route": "css/cssTo_Areas_SuperAdmin_Index.css",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Areas_SuperAdmin_Index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LwR/I34y6AVTnEGy4xDvYGdBLyUvKHRpudLFW0n3ACk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 03:19:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LwR/I34y6AVTnEGy4xDvYGdBLyUvKHRpudLFW0n3ACk="
+        }
+      ]
+    },
+    {
+      "Route": "css/cssTo_Areas_SuperAdmin_Index.css.gz",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\apw6y8jj3b-jfwkb2v8gr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "469"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hPkPXPgcwXbIyvunL54CqZpRc30XFIZGI/kroy7fuho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 03:19:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hPkPXPgcwXbIyvunL54CqZpRc30XFIZGI/kroy7fuho="
+        }
+      ]
+    },
+    {
+      "Route": "css/cssTo_Areas_SuperAdmin_Index.jfwkb2v8gr.css",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\apw6y8jj3b-jfwkb2v8gr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002127659574"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "469"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hPkPXPgcwXbIyvunL54CqZpRc30XFIZGI/kroy7fuho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 03:19:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LwR/I34y6AVTnEGy4xDvYGdBLyUvKHRpudLFW0n3ACk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jfwkb2v8gr"
+        },
+        {
+          "Name": "label",
+          "Value": "css/cssTo_Areas_SuperAdmin_Index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LwR/I34y6AVTnEGy4xDvYGdBLyUvKHRpudLFW0n3ACk="
+        }
+      ]
+    },
+    {
+      "Route": "css/cssTo_Areas_SuperAdmin_Index.jfwkb2v8gr.css",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Areas_SuperAdmin_Index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LwR/I34y6AVTnEGy4xDvYGdBLyUvKHRpudLFW0n3ACk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 03:19:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jfwkb2v8gr"
+        },
+        {
+          "Name": "label",
+          "Value": "css/cssTo_Areas_SuperAdmin_Index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LwR/I34y6AVTnEGy4xDvYGdBLyUvKHRpudLFW0n3ACk="
+        }
+      ]
+    },
+    {
+      "Route": "css/cssTo_Areas_SuperAdmin_Index.jfwkb2v8gr.css.gz",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\apw6y8jj3b-jfwkb2v8gr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "469"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hPkPXPgcwXbIyvunL54CqZpRc30XFIZGI/kroy7fuho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 03:19:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jfwkb2v8gr"
+        },
+        {
+          "Name": "label",
+          "Value": "css/cssTo_Areas_SuperAdmin_Index.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hPkPXPgcwXbIyvunL54CqZpRc30XFIZGI/kroy7fuho="
+        }
+      ]
+    },
+    {
       "Route": "css/cssTo_Brand.83jl25er27.css",
       "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\68e419fe8e-83jl25er27.gz",
       "Selectors": [
@@ -6877,8 +7259,8 @@
       ]
     },
     {
-      "Route": "css/cssTo_Home.css",
-      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\ih8tcmre6g-pa9142jc8o.gz",
+      "Route": "css/cssTo_Index.css",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\gi4goxn3vg-pa9142jc8o.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -6901,7 +7283,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 08:12:42 GMT"
+          "Value": "Tue, 08 Apr 2025 03:17:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6932,8 +7314,8 @@
       ]
     },
     {
-      "Route": "css/cssTo_Home.css",
-      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Home.css",
+      "Route": "css/cssTo_Index.css",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Index.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6954,7 +7336,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 08:12:42 GMT"
+          "Value": "Tue, 08 Apr 2025 03:17:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6969,8 +7351,8 @@
       ]
     },
     {
-      "Route": "css/cssTo_Home.css.gz",
-      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\ih8tcmre6g-pa9142jc8o.gz",
+      "Route": "css/cssTo_Index.css.gz",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\gi4goxn3vg-pa9142jc8o.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6991,7 +7373,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 08:12:42 GMT"
+          "Value": "Tue, 08 Apr 2025 03:17:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7014,8 +7396,8 @@
       ]
     },
     {
-      "Route": "css/cssTo_Home.pa9142jc8o.css",
-      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\ih8tcmre6g-pa9142jc8o.gz",
+      "Route": "css/cssTo_Index.pa9142jc8o.css",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\gi4goxn3vg-pa9142jc8o.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -7038,7 +7420,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 08:12:42 GMT"
+          "Value": "Tue, 08 Apr 2025 03:17:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7068,7 +7450,7 @@
         },
         {
           "Name": "label",
-          "Value": "css/cssTo_Home.css"
+          "Value": "css/cssTo_Index.css"
         },
         {
           "Name": "integrity",
@@ -7077,8 +7459,8 @@
       ]
     },
     {
-      "Route": "css/cssTo_Home.pa9142jc8o.css",
-      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Home.css",
+      "Route": "css/cssTo_Index.pa9142jc8o.css",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Index.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7099,7 +7481,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 08:12:42 GMT"
+          "Value": "Tue, 08 Apr 2025 03:17:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7113,7 +7495,7 @@
         },
         {
           "Name": "label",
-          "Value": "css/cssTo_Home.css"
+          "Value": "css/cssTo_Index.css"
         },
         {
           "Name": "integrity",
@@ -7122,8 +7504,8 @@
       ]
     },
     {
-      "Route": "css/cssTo_Home.pa9142jc8o.css.gz",
-      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\ih8tcmre6g-pa9142jc8o.gz",
+      "Route": "css/cssTo_Index.pa9142jc8o.css.gz",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\gi4goxn3vg-pa9142jc8o.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7144,7 +7526,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 08:12:42 GMT"
+          "Value": "Tue, 08 Apr 2025 03:17:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7166,7 +7548,7 @@
         },
         {
           "Name": "label",
-          "Value": "css/cssTo_Home.css.gz"
+          "Value": "css/cssTo_Index.css.gz"
         },
         {
           "Name": "integrity",
@@ -19015,12 +19397,12 @@
     },
     {
       "Route": "js/products.js",
-      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\gz9qeyoiws-m8r6djl0cq.gz",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\gz9qeyoiws-sk0aouoro7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000826446281"
+          "Quality": "0.000823045267"
         }
       ],
       "ResponseHeaders": [
@@ -19030,15 +19412,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1209"
+          "Value": "1214"
         },
         {
           "Name": "ETag",
-          "Value": "\"1jE0Gmx0tBxTDPc9ICcia/eb+hs+aYaqs0MM0I2mbkU=\""
+          "Value": "\"83R35FGGAsbIu/qUwL08C5wlDre2IYuP8kZDIFuZi+w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 12:49:59 GMT"
+          "Value": "Tue, 08 Apr 2025 03:46:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19058,13 +19440,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"mocDz6GvZlO3/qQSLIR6sozH58BIT+lNJr2NrIZXjEs=\""
+          "Value": "W/\"lE40WiyJoVy2HlpkF4jK8T0pe5AZbtK7C116o8cnEoY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mocDz6GvZlO3/qQSLIR6sozH58BIT+lNJr2NrIZXjEs="
+          "Value": "sha256-lE40WiyJoVy2HlpkF4jK8T0pe5AZbtK7C116o8cnEoY="
         }
       ]
     },
@@ -19079,7 +19461,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3790"
+          "Value": "3795"
         },
         {
           "Name": "Content-Type",
@@ -19087,11 +19469,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mocDz6GvZlO3/qQSLIR6sozH58BIT+lNJr2NrIZXjEs=\""
+          "Value": "\"lE40WiyJoVy2HlpkF4jK8T0pe5AZbtK7C116o8cnEoY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 12:49:59 GMT"
+          "Value": "Tue, 08 Apr 2025 03:46:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19101,13 +19483,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mocDz6GvZlO3/qQSLIR6sozH58BIT+lNJr2NrIZXjEs="
+          "Value": "sha256-lE40WiyJoVy2HlpkF4jK8T0pe5AZbtK7C116o8cnEoY="
         }
       ]
     },
     {
       "Route": "js/products.js.gz",
-      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\gz9qeyoiws-m8r6djl0cq.gz",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\gz9qeyoiws-sk0aouoro7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -19116,7 +19498,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1209"
+          "Value": "1214"
         },
         {
           "Name": "Content-Type",
@@ -19124,11 +19506,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1jE0Gmx0tBxTDPc9ICcia/eb+hs+aYaqs0MM0I2mbkU=\""
+          "Value": "\"83R35FGGAsbIu/qUwL08C5wlDre2IYuP8kZDIFuZi+w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 12:49:59 GMT"
+          "Value": "Tue, 08 Apr 2025 03:46:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19146,18 +19528,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1jE0Gmx0tBxTDPc9ICcia/eb+hs+aYaqs0MM0I2mbkU="
+          "Value": "sha256-83R35FGGAsbIu/qUwL08C5wlDre2IYuP8kZDIFuZi+w="
         }
       ]
     },
     {
-      "Route": "js/products.m8r6djl0cq.js",
-      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\gz9qeyoiws-m8r6djl0cq.gz",
+      "Route": "js/products.sk0aouoro7.js",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\gz9qeyoiws-sk0aouoro7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000826446281"
+          "Quality": "0.000823045267"
         }
       ],
       "ResponseHeaders": [
@@ -19167,15 +19549,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1209"
+          "Value": "1214"
         },
         {
           "Name": "ETag",
-          "Value": "\"1jE0Gmx0tBxTDPc9ICcia/eb+hs+aYaqs0MM0I2mbkU=\""
+          "Value": "\"83R35FGGAsbIu/qUwL08C5wlDre2IYuP8kZDIFuZi+w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 12:49:59 GMT"
+          "Value": "Tue, 08 Apr 2025 03:46:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19195,13 +19577,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"mocDz6GvZlO3/qQSLIR6sozH58BIT+lNJr2NrIZXjEs=\""
+          "Value": "W/\"lE40WiyJoVy2HlpkF4jK8T0pe5AZbtK7C116o8cnEoY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "m8r6djl0cq"
+          "Value": "sk0aouoro7"
         },
         {
           "Name": "label",
@@ -19209,12 +19591,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mocDz6GvZlO3/qQSLIR6sozH58BIT+lNJr2NrIZXjEs="
+          "Value": "sha256-lE40WiyJoVy2HlpkF4jK8T0pe5AZbtK7C116o8cnEoY="
         }
       ]
     },
     {
-      "Route": "js/products.m8r6djl0cq.js",
+      "Route": "js/products.sk0aouoro7.js",
       "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\js\\products.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -19224,7 +19606,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3790"
+          "Value": "3795"
         },
         {
           "Name": "Content-Type",
@@ -19232,11 +19614,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mocDz6GvZlO3/qQSLIR6sozH58BIT+lNJr2NrIZXjEs=\""
+          "Value": "\"lE40WiyJoVy2HlpkF4jK8T0pe5AZbtK7C116o8cnEoY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 12:49:59 GMT"
+          "Value": "Tue, 08 Apr 2025 03:46:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19246,7 +19628,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "m8r6djl0cq"
+          "Value": "sk0aouoro7"
         },
         {
           "Name": "label",
@@ -19254,13 +19636,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mocDz6GvZlO3/qQSLIR6sozH58BIT+lNJr2NrIZXjEs="
+          "Value": "sha256-lE40WiyJoVy2HlpkF4jK8T0pe5AZbtK7C116o8cnEoY="
         }
       ]
     },
     {
-      "Route": "js/products.m8r6djl0cq.js.gz",
-      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\gz9qeyoiws-m8r6djl0cq.gz",
+      "Route": "js/products.sk0aouoro7.js.gz",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\gz9qeyoiws-sk0aouoro7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -19269,7 +19651,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1209"
+          "Value": "1214"
         },
         {
           "Name": "Content-Type",
@@ -19277,11 +19659,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1jE0Gmx0tBxTDPc9ICcia/eb+hs+aYaqs0MM0I2mbkU=\""
+          "Value": "\"83R35FGGAsbIu/qUwL08C5wlDre2IYuP8kZDIFuZi+w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 12:49:59 GMT"
+          "Value": "Tue, 08 Apr 2025 03:46:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19299,7 +19681,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "m8r6djl0cq"
+          "Value": "sk0aouoro7"
         },
         {
           "Name": "label",
@@ -19307,7 +19689,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1jE0Gmx0tBxTDPc9ICcia/eb+hs+aYaqs0MM0I2mbkU="
+          "Value": "sha256-83R35FGGAsbIu/qUwL08C5wlDre2IYuP8kZDIFuZi+w="
         }
       ]
     },
@@ -19345,6 +19727,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+        }
+      ]
+    },
+    {
+      "Route": "js/superadmin.dpxai46a5c.js",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\fkzpfsneoc-dpxai46a5c.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000742942051"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1345"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cAySn2bBBjow61/GMUHtfPjC+8XiI5SGEoPNxFhSjiM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 09:19:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"IYs9B1OT9hQV4PeM30SUX2B7fi1V0cszOWfQ0tcGdKM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dpxai46a5c"
+        },
+        {
+          "Name": "label",
+          "Value": "js/superadmin.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IYs9B1OT9hQV4PeM30SUX2B7fi1V0cszOWfQ0tcGdKM="
+        }
+      ]
+    },
+    {
+      "Route": "js/superadmin.dpxai46a5c.js",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\js\\superadmin.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4005"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IYs9B1OT9hQV4PeM30SUX2B7fi1V0cszOWfQ0tcGdKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 09:19:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dpxai46a5c"
+        },
+        {
+          "Name": "label",
+          "Value": "js/superadmin.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IYs9B1OT9hQV4PeM30SUX2B7fi1V0cszOWfQ0tcGdKM="
+        }
+      ]
+    },
+    {
+      "Route": "js/superadmin.dpxai46a5c.js.gz",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\fkzpfsneoc-dpxai46a5c.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1345"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cAySn2bBBjow61/GMUHtfPjC+8XiI5SGEoPNxFhSjiM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 09:19:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dpxai46a5c"
+        },
+        {
+          "Name": "label",
+          "Value": "js/superadmin.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cAySn2bBBjow61/GMUHtfPjC+8XiI5SGEoPNxFhSjiM="
+        }
+      ]
+    },
+    {
+      "Route": "js/superadmin.js",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\fkzpfsneoc-dpxai46a5c.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000742942051"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1345"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cAySn2bBBjow61/GMUHtfPjC+8XiI5SGEoPNxFhSjiM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 09:19:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"IYs9B1OT9hQV4PeM30SUX2B7fi1V0cszOWfQ0tcGdKM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IYs9B1OT9hQV4PeM30SUX2B7fi1V0cszOWfQ0tcGdKM="
+        }
+      ]
+    },
+    {
+      "Route": "js/superadmin.js",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\js\\superadmin.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4005"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IYs9B1OT9hQV4PeM30SUX2B7fi1V0cszOWfQ0tcGdKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 09:19:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IYs9B1OT9hQV4PeM30SUX2B7fi1V0cszOWfQ0tcGdKM="
+        }
+      ]
+    },
+    {
+      "Route": "js/superadmin.js.gz",
+      "AssetFile": "D:\\.GRID\\packages\\KoaLaDessertWeb\\obj\\Debug\\net9.0\\compressed\\fkzpfsneoc-dpxai46a5c.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1345"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cAySn2bBBjow61/GMUHtfPjC+8XiI5SGEoPNxFhSjiM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 09:19:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cAySn2bBBjow61/GMUHtfPjC+8XiI5SGEoPNxFhSjiM="
         }
       ]
     },

@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/KoaLaDessertWeb/css/cssTo_Areas_SuperAdmin_Index.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cssTo_Areas_SuperAdmin_Index.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LwR/I34y6AVTnEGy4xDvYGdBLyUvKHRpudLFW0n3ACk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1092"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LwR/I34y6AVTnEGy4xDvYGdBLyUvKHRpudLFW0n3ACk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 03:19:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KoaLaDessertWeb/css/cssTo_Areas_SuperAdmin_Index.jfwkb2v8gr.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cssTo_Areas_SuperAdmin_Index.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jfwkb2v8gr"},{"Name":"integrity","Value":"sha256-LwR/I34y6AVTnEGy4xDvYGdBLyUvKHRpudLFW0n3ACk="},{"Name":"label","Value":"_content/KoaLaDessertWeb/css/cssTo_Areas_SuperAdmin_Index.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1092"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LwR/I34y6AVTnEGy4xDvYGdBLyUvKHRpudLFW0n3ACk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 03:19:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KoaLaDessertWeb/css/cssTo_Brand.83jl25er27.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cssTo_Brand.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -24,17 +36,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j1s28gjrso"},{"Name":"integrity","Value":"sha256-ic177vsgl2KIN1Tit0ZE5Uz8wPLfoGvqfrbT63iLms4="},{"Name":"label","Value":"_content/KoaLaDessertWeb/css/cssTo_Contact.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"751"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ic177vsgl2KIN1Tit0ZE5Uz8wPLfoGvqfrbT63iLms4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Mar 2025 07:56:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/KoaLaDessertWeb/css/cssTo_Home.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cssTo_Home.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/KoaLaDessertWeb/css/cssTo_Index.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cssTo_Index.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UeGNNFcJueUD6FDDIE16iR3xHOSPpPSGyUAqt\u002B0H2js="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4474"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022UeGNNFcJueUD6FDDIE16iR3xHOSPpPSGyUAqt\u002B0H2js=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Mar 2025 08:12:42 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4474"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022UeGNNFcJueUD6FDDIE16iR3xHOSPpPSGyUAqt\u002B0H2js=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 03:17:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/KoaLaDessertWeb/css/cssTo_Home.pa9142jc8o.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cssTo_Home.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/KoaLaDessertWeb/css/cssTo_Index.pa9142jc8o.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cssTo_Index.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pa9142jc8o"},{"Name":"integrity","Value":"sha256-UeGNNFcJueUD6FDDIE16iR3xHOSPpPSGyUAqt\u002B0H2js="},{"Name":"label","Value":"_content/KoaLaDessertWeb/css/cssTo_Home.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4474"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022UeGNNFcJueUD6FDDIE16iR3xHOSPpPSGyUAqt\u002B0H2js=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Mar 2025 08:12:42 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pa9142jc8o"},{"Name":"integrity","Value":"sha256-UeGNNFcJueUD6FDDIE16iR3xHOSPpPSGyUAqt\u002B0H2js="},{"Name":"label","Value":"_content/KoaLaDessertWeb/css/cssTo_Index.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4474"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022UeGNNFcJueUD6FDDIE16iR3xHOSPpPSGyUAqt\u002B0H2js=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 03:17:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KoaLaDessertWeb/css/cssTo_Privacy.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cssTo_Privacy.css'))</AssetFile>
@@ -303,14 +315,26 @@
     <StaticWebAssetEndpoint Include="_content/KoaLaDessertWeb/js/products.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\products.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mocDz6GvZlO3/qQSLIR6sozH58BIT\u002BlNJr2NrIZXjEs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3790"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022mocDz6GvZlO3/qQSLIR6sozH58BIT\u002BlNJr2NrIZXjEs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 12:49:59 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lE40WiyJoVy2HlpkF4jK8T0pe5AZbtK7C116o8cnEoY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3795"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022lE40WiyJoVy2HlpkF4jK8T0pe5AZbtK7C116o8cnEoY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 03:46:56 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/KoaLaDessertWeb/js/products.m8r6djl0cq.js">
+    <StaticWebAssetEndpoint Include="_content/KoaLaDessertWeb/js/products.sk0aouoro7.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\products.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m8r6djl0cq"},{"Name":"integrity","Value":"sha256-mocDz6GvZlO3/qQSLIR6sozH58BIT\u002BlNJr2NrIZXjEs="},{"Name":"label","Value":"_content/KoaLaDessertWeb/js/products.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3790"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022mocDz6GvZlO3/qQSLIR6sozH58BIT\u002BlNJr2NrIZXjEs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 12:49:59 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sk0aouoro7"},{"Name":"integrity","Value":"sha256-lE40WiyJoVy2HlpkF4jK8T0pe5AZbtK7C116o8cnEoY="},{"Name":"label","Value":"_content/KoaLaDessertWeb/js/products.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3795"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022lE40WiyJoVy2HlpkF4jK8T0pe5AZbtK7C116o8cnEoY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 03:46:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KoaLaDessertWeb/js/superadmin.dpxai46a5c.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\superadmin.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dpxai46a5c"},{"Name":"integrity","Value":"sha256-IYs9B1OT9hQV4PeM30SUX2B7fi1V0cszOWfQ0tcGdKM="},{"Name":"label","Value":"_content/KoaLaDessertWeb/js/superadmin.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4005"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022IYs9B1OT9hQV4PeM30SUX2B7fi1V0cszOWfQ0tcGdKM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 09:19:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KoaLaDessertWeb/js/superadmin.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\superadmin.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IYs9B1OT9hQV4PeM30SUX2B7fi1V0cszOWfQ0tcGdKM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4005"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022IYs9B1OT9hQV4PeM30SUX2B7fi1V0cszOWfQ0tcGdKM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 09:19:47 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KoaLaDessertWeb/js/utils.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\utils.js'))</AssetFile>

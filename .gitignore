@@ -2,7 +2,7 @@
 KoaLaDessertWeb/.vs/*
 KoaLaDessertWeb/.vscode/*
 KoaLaDessertWeb/bin/*
-KoaLaDessertWeb/log/*
+KoaLaDessertWeb/Log/*
 
 # 設定檔案
 KoaLaDessertWeb/appsettings.Development.json

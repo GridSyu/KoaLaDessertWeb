@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\css\\_Layout.css"
     },
     {
+      "Id": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Areas_SuperAdmin_Index.css",
+      "PackagePath": "staticwebassets\\css\\cssTo_Areas_SuperAdmin_Index.css"
+    },
+    {
       "Id": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Brand.css",
       "PackagePath": "staticwebassets\\css\\cssTo_Brand.css"
     },
@@ -13,8 +17,8 @@
       "PackagePath": "staticwebassets\\css\\cssTo_Contact.css"
     },
     {
-      "Id": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Home.css",
-      "PackagePath": "staticwebassets\\css\\cssTo_Home.css"
+      "Id": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Index.css",
+      "PackagePath": "staticwebassets\\css\\cssTo_Index.css"
     },
     {
       "Id": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\css\\cssTo_Privacy.css",
@@ -103,6 +107,10 @@
     {
       "Id": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\js\\products.js",
       "PackagePath": "staticwebassets\\js\\products.js"
+    },
+    {
+      "Id": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\js\\superadmin.js",
+      "PackagePath": "staticwebassets\\js\\superadmin.js"
     },
     {
       "Id": "D:\\.GRID\\packages\\KoaLaDessertWeb\\wwwroot\\js\\utils.js",

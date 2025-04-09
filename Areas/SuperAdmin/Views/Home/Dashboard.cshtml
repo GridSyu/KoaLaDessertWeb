@@ -1,0 +1,56 @@
+@model dynamic
+@{
+    ViewData["Title"] = "SuperAdmin Dashboard";
+    Layout = "_Layout";
+}
+@* 引用樣式表 *@
+<link rel="stylesheet" href="~/css/cssTo_Areas_SuperAdmin_Index.css" />
+
+<div class="container mt-5">
+    <h2>SuperAdmin Dashboard</h2>
+    <p>管理所有使用者的角色</p>
+
+    <!-- 使用者列表表格 -->
+    <table class="table table-striped" id="userTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Email</th>
+                <th>角色</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<!-- 編輯角色模態框 -->
+<div class="modal fade" id="editRoleModal" tabindex="-1" aria-labelledby="editRoleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editRoleModalLabel">編輯使用者角色</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="userId" />
+                <p><strong>Email:</strong> <span id="userEmail"></span></p>
+                <h6>選擇角色:</h6>
+                <div id="roleCheckboxes"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+                <button type="button" class="btn btn-primary" id="saveRoles">儲存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* 導入 JS 至 Scripts 區塊 *@
+@section Scripts {
+    <script src="~/js/superadmin.js" asp-append-version="true"></script>
+    @* <script src="@Url.Content("~/js/superadmin.js")"></script> *@
+}
+
+
+

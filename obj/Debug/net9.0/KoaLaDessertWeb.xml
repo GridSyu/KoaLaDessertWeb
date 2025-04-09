@@ -1207,9 +1207,11 @@
         </member>
         <member name="M:DashboardController.Index">
             <summary>
-            獲取後台管理首頁資料
+            提供 後台管理 頁面
             </summary>
-            <returns>後台功能清單</returns>
+            <remarks>
+            Message: <br />
+            </remarks>
         </member>
         <member name="M:DashboardController.ManageUsers">
             <summary>
