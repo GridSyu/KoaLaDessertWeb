@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KoaLaDessertWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d35b4621a183fdc74796d9e5db020c98345789c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a56acefc8baaab6b080fd74d54a73761edac2846")]
 [assembly: System.Reflection.AssemblyProductAttribute("KoaLaDessertWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KoaLaDessertWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

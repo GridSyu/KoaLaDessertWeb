@@ -219,6 +219,16 @@
                 directly from your code. This API may change or be removed in future releases.
             </summary>
         </member>
+        <member name="M:KoaLaDessertWeb.Areas.Identity.Pages.Account.LogoutModel.OnGet">
+            <summary>
+            顯示登出頁面（GET 請求）
+            </summary>
+        </member>
+        <member name="M:KoaLaDessertWeb.Areas.Identity.Pages.Account.LogoutModel.OnPost(System.String)">
+            <summary>
+            登出後導向
+            </summary>
+        </member>
         <member name="P:KoaLaDessertWeb.Areas.Identity.Pages.Account.Manage.ChangePasswordModel.Input">
             <summary>
                 This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
@@ -817,6 +827,28 @@
             Message: <br />
             Success = 成功 <br />
             DataStructureFail = 輸入資料結構錯誤 <br />
+            UnauthorizedRole = 角色驗證失敗 <br />
+            </remarks>
+        </member>
+        <member name="M:KoaLaDessertWeb.Controllers.ContactController.GetCurrentUser">
+            <summary>
+            獲取當前使用者資訊
+            </summary>
+            <remarks>
+            Message: <br />
+            Success = 成功 <br />
+            </remarks>
+        </member>
+        <member name="M:KoaLaDessertWeb.Controllers.ContactController.DeleteMessage(System.Int32)">
+            <summary>
+            刪除留言
+            </summary>
+            <remarks>
+            Message: <br />
+            Success = 成功 <br />
+            DataStructureFail = 輸入資料結構錯誤 <br />
+            UnauthorizedRole = 無權限 <br />
+            NotFound = 留言不存在 <br />
             </remarks>
         </member>
         <member name="T:KoaLaDessertWeb.Controllers.ContactController.AddMessageInputModel">
@@ -922,6 +954,18 @@
             <inheritdoc />
         </member>
         <member name="M:KoaLaDessertWeb.Migrations.AddIdentityTables.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:KoaLaDessertWeb.Migrations.MessageModelUpdate">
+            <inheritdoc />
+        </member>
+        <member name="M:KoaLaDessertWeb.Migrations.MessageModelUpdate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:KoaLaDessertWeb.Migrations.MessageModelUpdate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:KoaLaDessertWeb.Migrations.MessageModelUpdate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
         <member name="T:KoaLaDessertWeb.Models.ErrorViewModel">

@@ -20,6 +20,16 @@
     font-size: 14px;
 }
 
+#h1title {
+    margin-top: 20px;
+    padding: 8px;
+    background-color: dimgrey;
+    border-radius: 30px;
+    box-shadow: 0 6px 1px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 2px 4px rgba(255, 255, 255, 0.3);
+    color: aliceblue;
+}
+
 /* 自訂模態框樣式 */
 #editRoleModal .modal-content {
     border-radius: 10px;

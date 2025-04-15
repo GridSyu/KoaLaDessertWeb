@@ -1,0 +1,29 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "AdminManagement",
+    "description": "管理員API",
+    "version": "v1"
+  },
+  "paths": {
+    "/KoaLaDessertWeb/Admin/Products/Index": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { },
+  "tags": [
+    {
+      "name": "Products",
+      "description": "商品目錄"
+    }
+  ]
+}

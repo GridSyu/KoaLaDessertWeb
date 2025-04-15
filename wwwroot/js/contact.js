@@ -1,6 +1,30 @@
+// 儲存當前使用者名稱和角色清單
+let currentUserName = '遊客';
+let currentUserRoles = [];
+
 // 頁面載入時初始化留言列表和事件綁定
 document.addEventListener('DOMContentLoaded', function () {
-    loadMessages();
+    // 獲取當前使用者資訊
+    fetch('/KoaLaDessertWeb/Contact/GetCurrentUser')
+        .then(response => response.json())
+        .then(data => {
+            console.log('GetCurrentUser 回應:', data); // 調試用
+            if (data.state === 'Normal' && data.message === 'Success') {
+                currentUserName = data.results; // 儲存 UserName
+                currentUserRoles = data.userRoleList || []; // 儲存角色清單
+                console.log('currentUserName:', currentUserName, 'currentUserRoles:', currentUserRoles); // 調試用
+            } else {
+                console.error('獲取使用者資訊失敗:', data.message);
+            }
+        })
+        .catch(error => {
+            console.error('獲取使用者資訊時發生錯誤:', error);
+        })
+        .finally(() => {
+            // 無論是否成功獲取資訊，都繼續載入留言
+            loadMessages();
+        });
+
     document.querySelector('.submit-btn').addEventListener('click', submitMessage);
 });
 
@@ -14,17 +38,15 @@ function submitMessage() {
         return;
     }
 
-    const role = '遊客'; // 模擬登入狀態，可根據需求動態調整
-
-    // 發送 POST 請求到 AddMessage API
+    // 使用 UserName 提交
     fetch('/KoaLaDessertWeb/Contact/AddMessage', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            Role: role,
-            MessageContent: content // 改為與後端一致
+            Role: currentUserName, // 提交 UserName
+            MessageContent: content
         })
     })
     .then(response => {
@@ -34,7 +56,7 @@ function submitMessage() {
         return response.json();
     })
     .then(data => {
-        console.log('回傳資料:', data); // 調試用
+        console.log('AddMessage 回應:', data); // 調試用
         if (data.state === 'Normal' && data.message === 'Success') {
             messageInput.value = ''; // 清空輸入框
             loadMessages(); // 重新載入留言列表
@@ -61,12 +83,35 @@ function loadMessages() {
                 messages.forEach(message => {
                     const messageElement = document.createElement('div');
                     messageElement.className = 'message-item';
-                    messageElement.innerHTML = `
-                        <div class="user-id">[${message.Role}]</div>
+                    // 格式化角色清單
+                    const roleDisplay = message.RoleList && message.RoleList.length > 0
+                        ? `${message.UserName} (${message.RoleList.join(', ')})`
+                        : message.UserName;
+                    
+                    // 準備留言內容
+                    let messageHtml = `
+                        <div class="user-id">[${roleDisplay}]</div>
                         <div class="content">${message.MessageContent}</div>
-                        <div class="timestamp">[${new Date(message.MessageTime).toLocaleString('zh-TW', { timeZone: 'Asia/Taipei' })}]</div>
+                        <div class="timestamp">[${new Date(message.MessageTime).toLocaleString('zh-TW', { timeZone: 'Asia/Taipei', year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })}]</div>
                     `;
+
+                    // 如果當前使用者是 Admin 或 SuperAdmin，添加刪除按鈕
+                    if (currentUserRoles.includes('Admin') || currentUserRoles.includes('SuperAdmin')) {
+                        messageHtml += `
+                            <button class="delete-btn" data-id="${message.Id}">刪除</button>
+                        `;
+                    }
+
+                    messageElement.innerHTML = messageHtml;
                     messageList.appendChild(messageElement);
+                });
+
+                // 為刪除按鈕綁定事件
+                document.querySelectorAll('.delete-btn').forEach(button => {
+                    button.addEventListener('click', function () {
+                        const messageId = parseInt(this.getAttribute('data-id'));
+                        deleteMessage(messageId);
+                    });
                 });
             } else {
                 console.error('載入留言失敗:', data.message);
@@ -75,6 +120,40 @@ function loadMessages() {
         .catch(error => {
             console.error('載入留言時發生錯誤:', error);
         });
+}
+
+// 刪除留言
+function deleteMessage(messageId) {
+    if (!confirm('確定要刪除這條留言嗎？')) {
+        return;
+    }
+
+    fetch('/KoaLaDessertWeb/Contact/DeleteMessage', {
+        method: 'DELETE',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(messageId)
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP 錯誤！狀態碼: ${response.status}`);
+        }
+        return response.json();
+    })
+    .then(data => {
+        console.log('DeleteMessage 回應:', data); // 調試用
+        if (data.state === 'Normal' && data.message === 'Success') {
+            alert('刪除成功');
+            loadMessages(); // 重新載入留言列表
+        } else {
+            alert('刪除失敗：' + data.result);
+        }
+    })
+    .catch(error => {
+        console.error('刪除留言時發生錯誤:', error);
+        alert('刪除留言時發生錯誤: ' + error.message);
+    });
 }
 
 // 支援 Enter 鍵提交

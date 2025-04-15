@@ -1,4 +1,4 @@
-@model IEnumerable<KoaLaDessertWeb.Models.Message>
+@model IEnumerable<dynamic>
 @{
     ViewData["Title"] = "Contact";
     Layout = "_Layout";
@@ -13,14 +13,7 @@
             <button class="submit-btn">送出留言</button> @* 移除 onclick，改由 JS 綁定 *@
         </div>
         <div class="message-list" id="messageList">
-            @foreach (var message in Model)
-            {
-                <div class="message-item">
-                    <div class="user-id">[@message.Role]</div>
-                    <div class="content">@message.MessageContent</div>
-                    <div class="timestamp">[@message.MessageTime.ToString("yyyy-MM-dd HH:mm:ss")]</div>
-                </div>
-            }
+            @* 此處由JS產生(留言內容) *@
         </div>
     </div>
 </main>

@@ -1,5 +1,3 @@
-// Licensed to the .NET Foundation under one or more agreements.
-// The .NET Foundation licenses this file to you under the MIT license.
 #nullable disable
 
 using System;
@@ -23,20 +21,34 @@ namespace KoaLaDessertWeb.Areas.Identity.Pages.Account
             _logger = logger;
         }
 
+
+        /// <summary>
+        /// 顯示登出頁面（GET 請求）
+        /// </summary>
+        public void OnGet()
+        {
+            // 僅顯示登出確認頁面，無需額外邏輯
+        }
+
+
+        /// <summary>
+        /// 登出後導向
+        /// </summary>
         public async Task<IActionResult> OnPost(string returnUrl = null)
         {
             await _signInManager.SignOutAsync();
             _logger.LogInformation("User logged out.");
-            if (returnUrl != null)
+
+            // 過濾錯誤的 returnUrl
+            if (returnUrl != null && returnUrl.Contains("/Identity/Account/Logout") && Url.IsLocalUrl(returnUrl))
             {
+                // _logger.LogInformation($"Redirecting to provided returnUrl: {returnUrl}");
                 return LocalRedirect(returnUrl);
             }
-            else
-            {
-                // This needs to be a redirect so that the browser performs a new
-                // request and the identity for the user gets updated.
-                return RedirectToPage();
-            }
+            // 預設導向首頁
+            // _logger.LogInformation("Redirecting to home page.");
+            return LocalRedirect("~/");
         }
+
     }
 }

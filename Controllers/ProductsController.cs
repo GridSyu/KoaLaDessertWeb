@@ -67,7 +67,7 @@ namespace KoaLaDessertWeb.Controllers
 
                 var productList = products.ToList();
                 message = "Success";
-                _loggerForNormal.Write($"Retrieved {productList.Count} products", funcFrom);
+                _loggerForNormal.Write(message, funcFrom);
                 return Ok(new { state = "Normal", message = message, results = productList });
             }
             catch (Exception ex)

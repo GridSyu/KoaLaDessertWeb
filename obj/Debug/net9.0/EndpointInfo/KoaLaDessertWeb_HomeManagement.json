@@ -217,18 +217,6 @@
           }
         }
       }
-    },
-    "/KoaLaDessertWeb/Admin/Products/Index": {
-      "get": {
-        "tags": [
-          "Products"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
     }
   },
   "components": {
